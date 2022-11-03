@@ -19,7 +19,7 @@ public class Driver {
 
     private static InheritableThreadLocal<WebDriver> driverPool = new InheritableThreadLocal<>(); // value is null by default
 
-    // creating a reusable utility method which will return the same driver instance when we call it
+    // creating a reusable utility method which will return the same single driver instance when we call it
     public static WebDriver getDriver() {
 
         if (driverPool.get() == null) { // if driver/browser was never opened
