@@ -10,13 +10,15 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/trycloud/step_definitions",
         dryRun = false,
-        tags = "@wip"
+        tags = "@wip",
         // tags = "" --> runs everything, all features/scenarios
         //  tags = "@wip" -->  runs work in progress (can put any tag there to run)
+        publish = true    // optional, report will self-destruct in 24 hours
 )
 
 public class CukesRunner {
 }
+
 // order of execution comes from feature file
 
 // dryRun = true --> DO NOT run my step_definitions, but only check if any step implementation is missing, will give all UNIMPLEMENTED STEPS SNIPPETS

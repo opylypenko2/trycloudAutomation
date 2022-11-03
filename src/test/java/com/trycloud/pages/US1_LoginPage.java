@@ -22,5 +22,6 @@ public class US1_LoginPage {
     public void login(String username, String password) {
         inputUserName.sendKeys(username);
         inputPassword.sendKeys(password);
+        loginBtn.click();
     }
 }
