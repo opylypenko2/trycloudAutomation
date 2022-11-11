@@ -16,7 +16,6 @@ import org.junit.runner.RunWith;
         //  tags = "@wip" -->  runs work in progress (can put any tag there to run)
        // publish = true    // optional, report will self-destruct in 24 hours
 )
-
 public class CukesRunner {
 }
 
