@@ -41,6 +41,10 @@ public class BrowserUtils {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 15);
         wait.until(ExpectedConditions.invisibilityOf(element));
     }
+//    public static void waitForVisibilityOf(WebElement element) {
+//        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 15);
+//        wait.until(ExpectedConditions.visibilityOf(element));
+//    }
 
 
     /* This method will accept dropdown as a WebElement and return all the options as a List of String

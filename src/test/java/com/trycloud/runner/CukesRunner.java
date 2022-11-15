@@ -12,11 +12,11 @@ import org.junit.runner.RunWith;
         glue = "com/trycloud/step_definitions",
         dryRun = false,
         tags = "@smoke",
+
         // tags = "" --> runs everything, all features/scenarios
         //  tags = "@wip" -->  runs work in progress (can put any tag there to run)
-        publish = true    // optional, report will self-destruct in 24 hours
+       // publish = true    // optional, report will self-destruct in 24 hours
 )
-
 public class CukesRunner {
 }
 
