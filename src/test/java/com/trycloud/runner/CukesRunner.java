@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/trycloud/step_definitions",
         dryRun = false,
-        tags = "@smoke",
+        tags = "@smoke"
 
         // tags = "" --> runs everything, all features/scenarios
         //  tags = "@wip" -->  runs work in progress (can put any tag there to run)
