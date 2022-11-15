@@ -1,4 +1,4 @@
-@Jamil @wip
+@wip
 Feature: Story: As a user, I should be able to update settings.
 
   Background:
@@ -8,7 +8,7 @@ Feature: Story: As a user, I should be able to update settings.
   Scenario: Verify users update settings
     And user clicks Settings on the left bottom corner
     Then the user should be able to click any buttons
-
+  @Jamil
   Scenario: Verify users to see the app storage usage
     And user checks the current storage usage
     And user uploads file with the upload file option
