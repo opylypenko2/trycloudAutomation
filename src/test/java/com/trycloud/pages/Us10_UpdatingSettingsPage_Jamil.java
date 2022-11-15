@@ -36,6 +36,7 @@ public class Us10_UpdatingSettingsPage_Jamil {
     public WebElement uploadFileButton;
     @FindBy(xpath = "//input[@type='file']")
     public WebElement inputFile;
+
     @FindBy(xpath = "//div[@id='uploadprogressbar']")
     public WebElement uploadProgressBar;
 
