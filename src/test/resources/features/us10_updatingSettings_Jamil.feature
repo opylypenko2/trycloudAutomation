@@ -3,14 +3,14 @@ Feature: Story: As a user, I should be able to update settings.
 
   Background:
     Given user on the dashboard pagee
-    When the user clicks the Files module
+    When the user clicks the Files modulee
 
   Scenario: Verify users update settings
-    And user clicks Settings on the left bottom corner
-    Then the user should be able to click any buttons
+    And user clicks Settings on the left bottom cornerr
+    Then the user should be able to click any buttonss
 
   Scenario: Verify users to see the app storage usage
-    And user checks the current storage usage
-    And user uploads file with the upload file option
-    And user refresh the page
-    Then the user should be ablee to see storage usage is increased
+    And user checks the current storage usagee
+    And user uploads file with the upload file optionn
+    And user refresh the pagee
+    Then the user should be able to see storage usage is increasedd
