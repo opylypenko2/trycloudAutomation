@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/trycloud/step_definitions",
         dryRun = false,
-        tags = "@Jamil",
+        tags = "@wip",
         // tags = "" --> runs everything, all features/scenarios
         //  tags = "@wip" -->  runs work in progress (can put any tag there to run)
         publish = true    // optional, report will self-destruct in 24 hours
