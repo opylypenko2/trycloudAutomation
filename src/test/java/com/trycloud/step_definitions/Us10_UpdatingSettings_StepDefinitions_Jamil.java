@@ -16,8 +16,8 @@ public class Us10_UpdatingSettings_StepDefinitions_Jamil {
 
     US1_Login_StepDefinitions us1_login_stepDefinitions = new US1_Login_StepDefinitions();
     Us10_UpdatingSettingsPage_Jamil us10_updatingSettingsPage_jamil = new Us10_UpdatingSettingsPage_Jamil();
-    @Given("user on the dashboard page")
-    public void user_on_the_dashboard_page() {
+    @Given("user on the dashboard pagee")
+    public void user_on_the_dashboard_pagee() {
         us1_login_stepDefinitions.user_on_the_login_page();
         us1_login_stepDefinitions.userEntersUsernameAndPasscodeAndClicksTheLoginButton(Configuration_Reader.getProperty("username"),Configuration_Reader.getProperty("password"));
     }
@@ -63,8 +63,8 @@ public class Us10_UpdatingSettings_StepDefinitions_Jamil {
     public void user_refresh_the_page() {
         Driver.getDriver().navigate().refresh();
     }
-    @Then("the user should be able to see storage usage is increased")
-    public void the_user_should_be_able_to_see_storage_usage_is_increased() {
+    @Then("the user should be ablee to see storage usage is increased")
+    public void the_user_should_be_ablee_to_see_storage_usage_is_increased() {
         //BrowserUtils.waitForVisibilityOf(us10_updatingSettingsPage_jamil.storage);
         Driver.getDriver().manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         String storageAfterUpload = us10_updatingSettingsPage_jamil.storage.getText();
