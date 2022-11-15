@@ -1,4 +1,4 @@
-@Jamil @wip
+@wip @Jamil
 Feature: Story: As a user, I should be able to update settings.
 
   Background:

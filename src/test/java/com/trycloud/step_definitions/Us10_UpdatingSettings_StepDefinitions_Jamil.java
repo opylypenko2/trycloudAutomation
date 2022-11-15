@@ -65,7 +65,8 @@ public class Us10_UpdatingSettings_StepDefinitions_Jamil {
     }
     @Then("the user should be able to see storage usage is increased")
     public void the_user_should_be_able_to_see_storage_usage_is_increased() {
-        BrowserUtils.waitForVisibilityOf(us10_updatingSettingsPage_jamil.storage);
+        //BrowserUtils.waitForVisibilityOf(us10_updatingSettingsPage_jamil.storage);
+        Driver.getDriver().manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         String storageAfterUpload = us10_updatingSettingsPage_jamil.storage.getText();
         Assert.assertNotEquals(storageBeforeUpload,storageAfterUpload);
     }

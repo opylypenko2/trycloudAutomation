@@ -29,12 +29,14 @@ public class Us10_UpdatingSettingsPage_Jamil {
 
     @FindBy(xpath = "//li[@id='quota']")
     public WebElement storage;
+
     @FindBy(xpath = "//a[@class='button new']")
     public WebElement plusButton;
     @FindBy(xpath = "//label[@data-action='upload']")
     public WebElement uploadFileButton;
     @FindBy(xpath = "//input[@type='file']")
     public WebElement inputFile;
+
     @FindBy(xpath = "//div[@id='uploadprogressbar']")
     public WebElement uploadProgressBar;
 
