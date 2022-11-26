@@ -16,17 +16,17 @@ public class Us10_UpdatingSettings_StepDefinitions_Jamil {
 
     US1_Login_StepDefinitions us1_login_stepDefinitions = new US1_Login_StepDefinitions();
     Us10_UpdatingSettingsPage_Jamil us10_updatingSettingsPage_jamil = new Us10_UpdatingSettingsPage_Jamil();
-    @Given("user on the dashboard pagee")
-    public void user_on_the_dashboard_pagee() {
-        us1_login_stepDefinitions.user_on_the_login_page();
-        us1_login_stepDefinitions.userEntersUsernameAndPasscodeAndClicksTheLoginButton(Configuration_Reader.getProperty("username"),Configuration_Reader.getProperty("password"));
-    }
-    @When("the user clicks the Files modulee")
-    public void the_user_clicks_the_modulee() {
-//        Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-      //  BrowserUtils.waitForVisibilityOf(us10_updatingSettingsPage_jamil.filesButton);
-        us10_updatingSettingsPage_jamil.filesButton.click();
-    }
+//    @Given("user on the dashboard page")
+//    public void user_on_the_dashboard_page() {
+//        us1_login_stepDefinitions.user_on_the_login_page();
+//        us1_login_stepDefinitions.userEntersUsernameAndPasscodeAndClicksTheLoginButton(Configuration_Reader.getProperty("username"),Configuration_Reader.getProperty("password"));
+//    }
+//    @When("the user clicks the Files module")
+//    public void the_user_clicks_the_module() {
+////        Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//      //  BrowserUtils.waitForVisibilityOf(us10_updatingSettingsPage_jamil.filesButton);
+//        us10_updatingSettingsPage_jamil.filesButton.click();
+//    }
     @When("user clicks Settings on the left bottom cornerr")
     public void user_clicks_settings_on_the_left_bottom_cornerr() {
 //        Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

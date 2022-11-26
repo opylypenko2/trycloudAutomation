@@ -28,8 +28,8 @@ public class US12_ContactsPage_StepDefs {
         contactsPage.contactsModule.click();
     }
 
-    @Then("verify the page title is {string}")
-    public void verify_the_page_title_is(String string) {
+    @Then("verify page title is {string}")
+    public void verify_page_title_is(String string) {
         String expectedTitle2 = "Contacts - Trycloud QA";
         Assert.assertEquals(expectedTitle2, Driver.getDriver().getTitle());
     }

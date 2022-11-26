@@ -2,8 +2,8 @@
 Feature: Story: As a user, I should be able to update settings.
 
   Background:
-    Given user on the dashboard pagee
-    When the user clicks the Files modulee
+    Given user on the dashboard page
+    When the user clicks the "Files" module
 
   Scenario: Verify users update settings
     And user clicks Settings on the left bottom cornerr
