@@ -24,4 +24,9 @@ public class US1_LoginPage {
         inputPassword.sendKeys(password);
         loginBtn.click();
     }
+
+    public void clickFile() {
+
+
+    }
 }

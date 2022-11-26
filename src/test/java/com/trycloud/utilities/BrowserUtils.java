@@ -84,6 +84,8 @@ public class BrowserUtils {
             }
         }
 
+
+
     }
 
     public static void waitForVisibilityOf(WebElement element) {
