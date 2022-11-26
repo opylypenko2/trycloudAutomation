@@ -32,7 +32,7 @@ public class US4_accessingFilesModule_StepDefinitions_Ikram {
 
     }
 
-    @Then("verify the page title is {string}")
+    @Then("Verify the page title is {string}")
     public void verifyThePageTitleIs(String arg0) {
         String actualTitle = Driver.getDriver().getTitle();
         Assert.assertEquals("Files - Trycloud QA", actualTitle);
