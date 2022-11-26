@@ -36,7 +36,7 @@ public class US8_DeletingFiles_StepDefinitions {
         us8_deletingFilesPage.deletedFilesModule.click();
     }
 
-    @Then("Verify the {string} is displayed on the page")
+    @Then("verify the {string} is displayed on the page")
     public void verify_the_deleted_file_is_displayed_on_the_page(String fileName) {
         wait.until(ExpectedConditions.titleIs("Deleted files - Trycloud QA"));
 
