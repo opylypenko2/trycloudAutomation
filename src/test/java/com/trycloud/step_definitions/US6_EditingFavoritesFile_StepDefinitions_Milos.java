@@ -20,10 +20,10 @@ public class US6_EditingFavoritesFile_StepDefinitions_Milos {
 //        Driver.getDriver().get(Configuration_Reader.getProperty("URL"));
 //        us1_loginPage.login("User22", "Userpass123");
 //    }
-//    @When("the user clicks the {string} module")
-//    public void the_user_clicks_the_module(String string) {
-//        us6_editingFavoritesFilePage_milos.filesModule.click();
-//    }
+    @When("the user clicks the {string} module")
+    public void the_user_clicks_the_module(String string) {
+        us6_editingFavoritesFilePage_milos.filesModule.click();
+    }
 
     @When("the users click action-icon from any file on the page to remove")
     public void the_users_click_action_icon_from_any_file_on_the_page_to_remove() {

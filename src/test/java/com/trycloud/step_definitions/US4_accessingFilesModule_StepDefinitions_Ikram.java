@@ -24,13 +24,13 @@ public class US4_accessingFilesModule_StepDefinitions_Ikram {
         US1_loginPage.login("User22", "Userpass123");
     }
 
-    @When("the user clicks the {string} module")
-    public void the_user_clicks_the_module(String string) {
-
-        US4_accessingFilesModulepage_ikram.filesIcon.click();
-        BrowserUtils.sleep(10);
-
-    }
+//    @When("the user clicks the {string} module")
+//    public void the_user_clicks_the_module(String string) {
+//
+//        US4_accessingFilesModulepage_ikram.filesIcon.click();
+//        BrowserUtils.sleep(10);
+//
+//    }
 
     @Then("Verify the page title is {string}")
     public void verifyThePageTitleIs(String arg0) {
