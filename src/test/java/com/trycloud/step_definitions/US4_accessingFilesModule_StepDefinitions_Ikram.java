@@ -9,14 +9,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import javax.swing.*;
-import java.util.List;
 
 public class US4_accessingFilesModule_StepDefinitions_Ikram {
 
@@ -29,18 +23,19 @@ public class US4_accessingFilesModule_StepDefinitions_Ikram {
         Driver.getDriver().get(Configuration_Reader.getProperty("URL"));
         US1_loginPage.login("User22", "Userpass123");
     }
-    @When("the user clicks the {string} module")
-    public void the_user_clicks_the_module(String string) {
 
-        US4_accessingFilesModulepage_ikram.filesIcon.click();
-        BrowserUtils.sleep(10);
-
-    }
+//    @When("the user clicks the {string} module")
+//    public void the_user_clicks_the_module(String string) {
+//
+//        US4_accessingFilesModulepage_ikram.filesIcon.click();
+//        BrowserUtils.sleep(10);
+//
+//    }
 
     @Then("verify the page title is {string}")
     public void verifyThePageTitleIs(String arg0) {
         String actualTitle = Driver.getDriver().getTitle();
-        Assert.assertEquals("Files - Trycloud QA",actualTitle);
+        Assert.assertEquals("Files - Trycloud QA", actualTitle);
     }
 
 
@@ -54,9 +49,10 @@ public class US4_accessingFilesModule_StepDefinitions_Ikram {
         //US4_accessingFilesModulepage_ikram.plusCheckBox.click();
 
     }
+
     @Then("verify all the files are selected")
     public void verify_all_the_files_are_selected() {
-        for (WebElement each : US4_accessingFilesModulepage_ikram.nameCheckboxes ){
+        for (WebElement each : US4_accessingFilesModulepage_ikram.nameCheckboxes) {
             each.isSelected();
         }
 

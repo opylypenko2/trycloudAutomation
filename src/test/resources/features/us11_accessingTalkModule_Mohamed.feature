@@ -3,7 +3,7 @@ Feature: As a user, I should be able to access to Talks module
  User Story: As a user, I should be able to access to Talks module.
   Background:
     Given user on the dashboard page
-    When the user clicks the "Talk" module
+    When  user clicks the "Talk" module
 @smoke
   Scenario: verify users to access to Talks module
     Then verify the page title is "Talk - Trycloud QA"

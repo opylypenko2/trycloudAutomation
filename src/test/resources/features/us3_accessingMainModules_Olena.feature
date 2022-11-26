@@ -1,7 +1,7 @@
 Feature: As a user, I should be accessing all the main modules of the app.
   User Story: As a user, I should be accessing all the main modules of the app.
 
-  @wip
+  @smoke
   Scenario: Verify users accessing all the main modules of the app.
     Given user on the login page
     When users log in with valid credentials

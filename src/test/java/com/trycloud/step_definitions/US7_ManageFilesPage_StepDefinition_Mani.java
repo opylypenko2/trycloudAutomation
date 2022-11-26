@@ -18,16 +18,16 @@ public class US7_ManageFilesPage_StepDefinition_Mani {
        US1_LoginPage us1_loginPage = new US1_LoginPage();
 
     //TC1 _________________________________________________________________________
-    @Given("user on the dashboard page")
-    public void user_on_the_dashboard_page() {
-        Driver.getDriver().get(Configuration_Reader.getProperty("URL"));
-        us1_loginPage.login("User22", "Userpass123");
-
-    }
-    @When("the user clicks the {string} module")
-    public void the_user_clicks_the_module(String string) {
-        filesPage.filesModule.click();
-    }
+//    @Given("user on the dashboard page")
+//    public void user_on_the_dashboard_page() {
+//        Driver.getDriver().get(Configuration_Reader.getProperty("URL"));
+//        us1_loginPage.login("User22", "Userpass123");
+//
+//    }
+//    @When("the user clicks the {string} module")
+//    public void the_user_clicks_the_module(String string) {
+//        filesPage.filesModule.click();
+//    }
     @When("user clicks the add icon on the top")
     public void user_clicks_the_add_icon_on_the_top() {
         filesPage.addIcon.click();

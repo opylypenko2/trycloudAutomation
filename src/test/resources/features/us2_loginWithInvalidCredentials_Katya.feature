@@ -3,7 +3,7 @@ Feature: As a user, I should e able to log in.
 
   Scenario Outline: Verify user login fails with invalid credentials
 
-    Given User is on the login page
+    Given user on the login page
     When User enters invalid "<username>" and "<password>" and clicks login button
     Then verify "<message>" should be displayed
 
