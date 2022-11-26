@@ -1,3 +1,4 @@
+@smoke
 Feature: As a user, I should e able to log in.
 
 

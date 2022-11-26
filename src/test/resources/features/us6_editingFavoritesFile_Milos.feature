@@ -1,4 +1,4 @@
-@smoke
+
 Feature: As a user, I should be able to remove files from favorites and upload a file directly
   User Story: As a user, I should be able to edit favorites files.
 
