@@ -1,4 +1,4 @@
-@wip
+@smoke
 Feature: As a user, I should be able to access to Files module.
   Story: As a user, I should be able to access to Files module.
 
